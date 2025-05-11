@@ -14,7 +14,7 @@ Um projeto simples de gerenciamento de usuários com backend em Spring Boot e fr
 
 ## 📁 Estrutura do Projeto
 
-```
+````
 src/
 ├── main/
 │   ├── java/
@@ -34,18 +34,16 @@ src/
 │       │   ├── new-user.html
 │       │   ├── style.css
 │       │   ├── index.js
-│       │   └── ...
 │       └── application.properties
-```
 
 ## 🚀 Como Executar
 
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/UserManager.git
+git clone https://github.com/FelisbinoJose/UserManager.git
 cd UserManager
-```
+````
 
 2. Compile e execute com o Spring Boot (IDE ou terminal):
 
@@ -67,4 +65,4 @@ cd UserManager
 
 ## ✍️ Autor
 
-Desenvolvido por [Seu Nome](https://github.com/seu-usuario)
+Desenvolvido por [José Luiz](https://github.com/FelisbinoJose)
