@@ -17,7 +17,6 @@ public class DepartmentService {
     public Department criarDepartment(DepartmentDto departmentDto){
         Department department = new Department();
         department.setName(departmentDto.getName());
-        // Aqui você pode adicionar lógica adicional, como definir a lista de usuários, se necessário
         return departmentRespository.save(department);
     }
 
