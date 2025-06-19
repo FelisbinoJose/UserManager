@@ -29,4 +29,11 @@ public class DepartmentController {
         return ResponseEntity.ok(listaDeDepartment);
     }
 
+    @GetMapping("/{id}")
+    public ResponseEntity<?> buscarPorId(@PathVariable Long id){
+        return departmentService.buscarPorId(id).map(department -> ResponseEntity.ok(department))
+                .orElse(ResponseEntity.notFound().build());
+    }
+
+
 }
