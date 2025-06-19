@@ -19,9 +19,12 @@ public class Department {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Column(name = "tb_name")
     private String name;
 
     @OneToMany
+    @JoinColumn(name = "tb_listaDeUsuarios")
     private List<User> listaDeUsers;
 
 
