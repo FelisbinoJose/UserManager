@@ -21,8 +21,6 @@ public class User {
 
     @Column(name = "tb_name")
     private String name;
-
-    @Column(name = "tb_name")
     private String email;
 
     @ManyToOne
